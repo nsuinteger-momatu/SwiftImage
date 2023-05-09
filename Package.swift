@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftImage",
-    platforms: [.iOS(.v13), .macOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
             .library(
                 name: "SwiftImage",
